@@ -18,12 +18,12 @@ using namespace std;
 
 int main(){
 	bool is_first = true;
-	char* yolo_engine = "/home/tthd/workspace/project/yoloreflective/resources/reflective-s.engine";
+	char* yolo_engine = "";
 	float conf_thre = 0.3;
 	Trtyolosort yosort(yolo_engine);
 	VideoCapture capture;
 	cv::Mat frame;
-  frame = capture.open("/home/tthd/workspace/data/helmet/test.mp4");
+        frame = capture.open("");
 	if (!capture.isOpened()){
 		std::cout<<"can not open"<<std::endl;
 		return -1 ;
