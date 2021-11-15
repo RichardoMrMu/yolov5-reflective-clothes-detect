@@ -1,4 +1,5 @@
 # yolov5-reflective-clothes-detect
+<<<<<<< HEAD
 A C++ implementation of Yolov5 to detect reflective clothes and helmet running in Jetson Xavier nx and Jetson nano. In Jetson Xavier Nx, it can achieve 33 FPS.
 
 <img src="assets/yoloreflective.gif" >
@@ -223,6 +224,7 @@ sudo ./yolov5 -d yolov5s-int8.engine ../samples
 - [yolov5-mask-detection-python](https://github.com/RichardoMrMu/yolov5-mask-detection-python)
 - [yolov5-smoke-detection-python](https://github.com/RichardoMrMu/yolov5-smoke-detection-python)
 - [deepsort-tensorrt](https://github.com/RichardoMrMu/deepsort-tensorrt)
+
 
 
 
